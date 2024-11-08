@@ -18,6 +18,7 @@ Sprawdzenie, czy wyszukiwanie produktu "Laptop" na stronie Amazon działa popraw
 **Oczekiwany wynik:**
 Test powinien przejść, jeśli elementy takie jak tytuł, przycisk dodania do koszyka, cena produktu oraz komentarze są wyświetlane poprawnie na stronie, a wyniki wyszukiwania pojawiły się po wprowadzeniu frazy "Laptop"
 
+
 **Scenariusz do testu testGitHubSearch w klasie GithubTest:**
 
 **Cel testu:**
@@ -35,6 +36,7 @@ Sprawdzenie, czy wyszukiwanie projektu "Selenium" na stronie GitHub działa popr
 **Oczekiwany wynik:**
 Test powinien przejść, po wprowadzeniu frazy "Selenium" wyniki wyszukiwania wyświetlają się poprawnie
 
+
 **Scenariusz do testu testGoogleSearch w klasie GoogleTest:**
 
 **Cel testu:**
@@ -51,6 +53,7 @@ Sprawdzenie, czy wyszukiwanie frazy "Selenium" na stronie Google działa poprawn
 
 **Oczekiwany wynik:**
 Test powinien przejść, po wprowadzeniu frazy "Selenium" wyniki wyszukiwania wyświetlają się poprawnie i pierwszy wynik zawiera frazę "Selenium" w swojej treści.
+
 
 **Scenariusz do testu testWikipediaSearch w klasie WikipediaTest:**
 
