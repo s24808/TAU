@@ -88,6 +88,11 @@ public class GameBoard {
         }
     }
 
+    //Zwracanie planszy
+    public char[][] getBoard() {
+        return board;
+    }
+
     //Wyświetlanie planszy
     public void displayBoard() {
         for (int i = 0; i < rows; i++) {
@@ -96,5 +101,37 @@ public class GameBoard {
             }
             System.out.println();
         }
+    }
+
+    //Ruch w górę
+    public int[] moveUp(int currentX, int currentY) {
+        if (currentX > 0 && board[currentX - 1][currentY] != 'X') {
+            return new int[]{currentX - 1, currentY}; //Ruch w górę, jeśli nie ma przeszkody lub końca planszy
+        }
+        return new int[]{currentX, currentY}; //Zostajemy w miejscu (ruch niemożliwy do wykonania)
+    }
+
+    //Ruch w dół
+    public int[] moveDown(int currentX, int currentY) {
+        if (currentX < rows - 1 && board[currentX + 1][currentY] != 'X') {
+            return new int[]{currentX + 1, currentY}; //Ruch w dół, jeśli nie ma przeszkody lub końca planszy
+        }
+        return new int[]{currentX, currentY}; //Zostajemy w miejscu (ruch niemożliwy do wykonania)
+    }
+
+    //Ruch w lewo
+    public int[] moveLeft(int currentX, int currentY) {
+        if (currentY > 0 && board[currentX][currentY - 1] != 'X') {
+            return new int[]{currentX, currentY - 1}; //Ruch w lewo, jeśli nie ma przeszkody lub końca planszy
+        }
+        return new int[]{currentX, currentY}; //Zostajemy w miejscu (ruch niemożliwy do wykonania)
+    }
+
+    //Ruch w prawo
+    public int[] moveRight(int currentX, int currentY) {
+        if (currentY < cols - 1 && board[currentX][currentY + 1] != 'X') {
+            return new int[]{currentX, currentY + 1}; //Ruch w prawo, jeśli nie ma przeszkody lub końca planszy
+        }
+        return new int[]{currentX, currentY}; //Zostajemy w miejscu (ruch niemożliwy do wykonania)
     }
 }
