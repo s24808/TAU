@@ -19,6 +19,7 @@ Projekt zawiera logikę gry, testy jednostkowe oraz integrację z GitHub Actions
 **GitHub Actions**
 Projekt został zintegrowany z GitHub Actions.
 Workflow znajduję się w pliku maven.yml w tym miejscu: .github/workflows/maven.yml
+
 **Zrzut ekranu potwierdzający wdrożenie GitHub Actions:**
 
 ![image](https://github.com/user-attachments/assets/69720ab2-d2df-4deb-9443-e51800f989ac)
