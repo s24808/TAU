@@ -15,7 +15,7 @@ Projekt zawiera logikę gry, testy jednostkowe oraz integrację z GitHub Actions
    
 4. Przejście do katalogu projektu:
 
-   cd 3/Zadanie3-GithubActions
+   cd TAU/Zadanie3-GithubActions
    
 5. Uruchamianie projektu:
 
