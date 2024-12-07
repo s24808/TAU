@@ -4,17 +4,28 @@ Projekt zawiera logikę gry, testy jednostkowe oraz integrację z GitHub Actions
 
 **Instrukcja uruchomienia:**
 1. Rzeczy potrzebne:
+
    -Java 17
+
    -Maven
-2. Klonowanie repozytorium:
-   -git clone https://github.com/s24808/TAU.git
-3. Przejście do katalogu projektu:
-   -cd 3/Zadanie3-GithubActions
-4. Uruchamianie projektu:
-   -mvn clean install
-   -java -cp target/classes game.Main
-5. Uruchamianie testów:
-   -mvn test
+   
+3. Klonowanie repozytorium:
+
+   git clone https://github.com/s24808/TAU.git
+   
+4. Przejście do katalogu projektu:
+
+   cd 3/Zadanie3-GithubActions
+   
+5. Uruchamianie projektu:
+
+   mvn clean install
+   
+   java -cp target/classes game.Main
+   
+6. Uruchamianie testów:
+   
+   mvn test
 
 **GitHub Actions**
 Projekt został zintegrowany z GitHub Actions.
