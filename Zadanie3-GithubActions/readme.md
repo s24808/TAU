@@ -7,14 +7,14 @@ Projekt zawiera logikę gry, testy jednostkowe oraz integrację z GitHub Actions
    -Java 17
    -Maven
 2. Klonowanie repozytorium:
-git clone https://github.com/s24808/TAU.git
+   -git clone https://github.com/s24808/TAU.git
 3. Przejście do katalogu projektu:
-cd 3/Zadanie3-GithubActions
+   -cd 3/Zadanie3-GithubActions
 4. Uruchamianie projektu:
-mvn clean install
-java -cp target/classes game.Main
+   -mvn clean install
+   -java -cp target/classes game.Main
 5. Uruchamianie testów:
-mvn test
+   -mvn test
 
 **GitHub Actions**
 Projekt został zintegrowany z GitHub Actions.
