@@ -42,6 +42,7 @@ Testy obejmują następujące scenariusze:
 
 **Dependencje:**
 
+   ```xml
    <dependencies>
        <dependency>
            <groupId>org.junit.jupiter</groupId>
@@ -49,12 +50,14 @@ Testy obejmują następujące scenariusze:
            <version>5.10.0</version>
            <scope>test</scope>
        </dependency>
+
        <dependency>
            <groupId>org.mockito</groupId>
            <artifactId>mockito-core</artifactId>
            <version>5.6.0</version>
            <scope>test</scope>
        </dependency>
+
        <dependency>
            <groupId>org.mockito</groupId>
            <artifactId>mockito-junit-jupiter</artifactId>
@@ -62,3 +65,4 @@ Testy obejmują następujące scenariusze:
            <scope>test</scope>
        </dependency>
    </dependencies>
+   ```
